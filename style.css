@@ -1,0 +1,115 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+
+  }
+  body {
+    font-family: "Outfit", sans-serif;
+    background-image: url("    https://wallpaperaccess.com/full/1413762.jpg");
+    align-items: center;
+    background-position: center top;
+    background-repeat: no-repeat;
+    justify-content: center;
+    background-color: red;
+  
+  }
+
+  .app-wrap {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+   
+  }
+ 
+ input {
+
+    width: clamp(170px , 300px); 
+    padding: 15px 15px ;
+    margin-bottom: 90px;
+    margin-top: 30px;
+    border: none;
+    outline: none;
+    background-color: rgba(18, 18, 18, 0.8);
+    border-radius: 10px;
+    font-size: 20px;
+    font-weight: 300;
+    transition: 0.2s ease-out;
+    color: #eeeeee;
+  }
+  header input:focus {
+    background-color: rgba(18, 18, 18, 0.5);
+  }
+
+  .second-box {
+    background-color: rgba(140, 140, 140, 0.6);
+     border-radius: 12px;
+    padding: 25px 25px 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    max-width: 60%;
+    max-height: 60%;
+    margin-top: 120px;
+     margin-left:auto;
+    margin-right:auto;
+    padding: 80px;
+    
+  }
+  .location .city {
+    color: #eeeeee;
+    font-size: 32px;
+    font-weight: 500;
+    margin-bottom: 5px;
+  }
+  .location .date {
+    color: #eeeeee;
+    font-size: 16px;
+  }
+  .current .temp {
+    color: #eeeeee;
+    font-size: 102px;
+    font-weight: 900;
+    margin: 30px 0;
+    text-shadow: 2px 8px rgba(0, 0, 0, 0.3);
+  }
+  .current .temp span {
+    font-weight: 200;
+  }
+  .current .weather {
+    color: #eeeeee;
+    font-size: 32px;
+    font-weight: 500;
+    font-style: italic;
+    margin-bottom: 15px;
+    text-shadow: 0 3px rgba(0, 0, 0, 0.4);
+  }
+  .current .hi-low {
+    color: #eeeeee;
+    font-size: 24px;
+    font-weight: 500;
+    text-shadow: 0 3px rgba(0, 0, 0, 0.4);
+  }
+  
+  /* @media (min-width:700px) and (max-width: 1000px) {
+    
+    [class*="main-box"] {
+      width: 60%;
+    }
+    
+  } */
+
+  /* @media only screen 
+and (min-device-width: 375px) 
+and (max-device-width: 812px) 
+and (-webkit-min-device-pixel-ratio: 3) {
+
+} */
+
+  /* .main-box {
+    
+    display: block;
+    
+  } */
